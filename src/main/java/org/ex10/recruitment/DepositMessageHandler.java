@@ -17,6 +17,6 @@ public class DepositMessageHandler extends MessageHandler<Deposit> {
 
     @Override
     public void handleMessage(Message<Deposit> message) {
-
+        // implement
     }
 }

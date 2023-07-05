@@ -1,8 +1,5 @@
 package org.ex10.recruitment;
 
-public class DepositPersistence {
-
-
-    //implement
-
+public interface DepositPersistence {
+    // add methods as needed
 }
