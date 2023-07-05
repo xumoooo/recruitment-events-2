@@ -1,4 +1,4 @@
-package org.ex10.recruitment;
+package ex10.org.recruitment;
 
 import static org.junit.jupiter.api.Assertions.*;
 
