@@ -11,7 +11,13 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+
+
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
+//    testImplementation 'org.mockito:mockito-core:5.7.0'
+    testImplementation  'org.mockito:mockito-junit-jupiter:5.7.0'
+    testImplementation 'ch.qos.logback:logback-classic:1.4.11'
 }
 
 test {
@@ -19,11 +25,11 @@ test {
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = '1.8'
+    kotlinOptions.jvmTarget = '17'
 }
 
 compileTestKotlin {
-    kotlinOptions.jvmTarget = '1.8'
+    kotlinOptions.jvmTarget = '17'
 }
 
 application {
